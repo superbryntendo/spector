@@ -1,0 +1,30 @@
+.color-default {
+	color: $black;
+}
+
+.color-reverse{
+	color: $white;
+}
+
+.color-secondary {
+	color: $fg-2;
+}
+
+.color-tertiary {
+	color: $fg-3;
+}
+
+.border-color-tertiary {
+	border-color: $fg-3;
+}
+
+.color-placeholder::placeholder {
+	color: $placeholder;
+}
+
+@each $stat, $color in $stat-colors {
+
+	.color-#{$stat}-1 {color: nth($color, 1);}
+	.color-#{$stat}-2 {color: nth($color, 2);}
+
+}

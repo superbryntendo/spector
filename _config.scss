@@ -1,0 +1,69 @@
+//Border
+$border-width: 2px;
+$border-radius: 4px;
+$border-pill: 32px;
+
+//Breakpoints
+$breakpoint-xs: '(min-width: 32em)';
+$breakpoint-sm: '(min-width: 40em)';
+$breakpoint-md: '(min-width: 52em)';
+$breakpoint-lg: '(min-width: 64em)';
+
+// Loop Counts
+$margin-count: 8; //Generates margin classes 0.5rem increments
+$padding-count: 8; //Generates padding classes in 0.5rem increments
+$layout-count: 25; //Generates height/width classes in 0.5rem increments
+
+//Type Scale
+$h1: 1.5rem;    // 32px
+$h2: 1.25rem;   // 24px
+$h3: 1.125rem;  // 20px
+$h4: 1rem;      // 16px
+$h5: 0.875rem;  // 14px
+$h6: 0.75rem;   // 12px
+
+$line-height-1:  1;
+$line-height-2:  1.25;
+$line-height-3:  1.5;
+$line-height-4:  2;
+
+// UI Color Definitions
+$white: #FFFFFF;
+$black: #000000;
+$phantom-gray: #56718C;
+$wraith-gray: #BCD3DE;
+$ghost-gray: #E1ECF2;
+$shade-gray: #B7C3CE;
+
+// UI Palette
+$ui-palette: (
+  primary: $black,
+  secondary: $phantom-gray,
+  tertiary: $wraith-gray,
+  placeholder: $ghost-gray,
+);
+
+// Brand Color Definitions
+$brand: #006FFF;
+  $brand-high: #1B7EFF;
+  $brand-low: #0069F2;
+
+$success: #26D58F;
+  $success-high: #F7D830;
+  $success-low: #DEC22B;
+
+$attention: #EBCD2E;
+  $attention-high: #28E398;
+  $attention-low: #24C987;
+
+$danger: #E91C53;
+  $danger-high: #F51D57;
+  $danger-low: #DB1A4E;
+
+// Brand Palette
+$brand-palette: (
+  brand: ( $brand, $brand-high, $brand-low)
+  success:( $success, $success-high, $success-low),
+  attention: ( $attention, $attention-high, $attention-low),
+  danger:( $danger, $danger-high, $danger-low)
+);
