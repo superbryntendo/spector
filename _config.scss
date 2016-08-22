@@ -62,8 +62,8 @@ $danger: #E91C53;
 
 // Brand Palette
 $brand-palette: (
-  brand: ( $brand, $brand-high, $brand-low)
-  success:( $success, $success-high, $success-low),
-  attention: ( $attention, $attention-high, $attention-low),
-  danger:( $danger, $danger-high, $danger-low)
+  brand:($brand, $brand-high, $brand-low),
+  success:($success, $success-high, $success-low),
+  attention:($attention, $attention-high, $attention-low),
+  danger:($danger, $danger-high, $danger-low),
 );
