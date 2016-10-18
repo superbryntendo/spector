@@ -4,10 +4,17 @@ $border-radius: 4px;
 $border-pill: 32px;
 
 //Breakpoints
-$breakpoint-xs: '(min-width: 32em)';
-$breakpoint-sm: '(min-width: 40em)';
-$breakpoint-md: '(min-width: 52em)';
-$breakpoint-lg: '(min-width: 64em)';
+// $breakpoint-xs: '(min-width: 32em)';
+// $breakpoint-sm: '(min-width: 40em)';
+// $breakpoint-md: '(min-width: 52em)';
+// $breakpoint-lg: '(min-width: 64em)';
+
+$breakpoints: (
+  xs: 32em,
+  sm: 40em,
+  md: 52em,
+  lg: 64em
+);
 
 // Loop Counts
 $margin-count: 8; //Generates margin classes 0.5rem increments
