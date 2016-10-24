@@ -1,20 +1,22 @@
-//Border
+// Border
 $border-width: 2px;
 $border-radius: 4px;
 $border-pill: 32px;
 
-//Breakpoints
-$breakpoint-xs: '(min-width: 32em)';
-$breakpoint-sm: '(min-width: 40em)';
-$breakpoint-md: '(min-width: 52em)';
-$breakpoint-lg: '(min-width: 64em)';
+// Breakpoints
+$breakpoints: (
+  xs: 32em,
+  sm: 40em,
+  md: 52em,
+  lg: 64em
+);
 
 // Loop Counts
 $margin-count: 8; //Generates margin classes 0.5rem increments
 $padding-count: 8; //Generates padding classes in 0.5rem increments
 $layout-count: 25; //Generates height/width classes in 0.5rem increments
 
-//Type Scale
+// Type Scale
 $h1: 2rem;    // 32px
 $h2: 1.5rem;   // 24px
 $h3: 1.25rem;  // 20px
